@@ -92,7 +92,9 @@ duplicate([1,7,32,1,10,2,11]) => true
 
 ### `damageCalculator`
 
-Write a function called `damageCalculator` that takes in 2 character objects
+Write a function called `damageCalculator` that takes in 2 character objects. 
+In this function, the first character parameter will attack the second character.
+Your job is to calculate how much damage would be done by the first character to the second character and return the damage dealt.
 A character object looks as follows:
 
 ```
@@ -118,9 +120,6 @@ let character2 = {
 
 
 ```
-
-In this function, the first character parameter will attack the second character.
-Your job is to calculate how much damage would be done by the first character to the second character and return the damage dealt.
 To calculate the damage, you use the `atk` of the first charater and subtract the `def` of the second character.
 If the damage result is 0 or less, return "NO DAMAGE!"
 
